@@ -5,7 +5,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/deeper-x/gcyph/ctable"
+	"github.com/deeper-x/gocyph/ctable"
 )
 
 func main() {

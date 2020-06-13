@@ -1,4 +1,4 @@
-package gtable
+package ctable
 
 import "math/rand"
 
