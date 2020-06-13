@@ -1,9 +1,16 @@
 package ctable
 
-import "math/rand"
+import (
+	"math/rand"
+	"time"
+)
 
 const minVal = 32
 const maxVal = 255
+
+func init() {
+	rand.Seed(time.Now().UnixNano())
+}
 
 // createTable create one map from two lists
 func createTable(strList []string, intList []int) map[int]string {

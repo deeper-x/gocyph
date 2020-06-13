@@ -2,14 +2,11 @@ package main
 
 import (
 	"log"
-	"math/rand"
-	"time"
 
 	"github.com/deeper-x/gocyph/ctable"
 )
 
 func main() {
-	rand.Seed(time.Now().UnixNano())
-
+	// Step 1: table generation
 	log.Println(ctable.New())
 }
