@@ -5,11 +5,11 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/deeper-x/gocyph/gcipher"
+	"github.com/deeper-x/gcyph/ctable"
 )
 
 func main() {
 	rand.Seed(time.Now().UnixNano())
 
-	log.Println(gcipher.NewTable())
+	log.Println(ctable.New())
 }

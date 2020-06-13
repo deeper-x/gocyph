@@ -1,4 +1,4 @@
-package gcipher
+package gtable
 
 import "math/rand"
 
@@ -61,8 +61,8 @@ func newRandomInts() []int {
 	return randomInts
 }
 
-// NewTable create the chiperTable
-func NewTable() map[int]string {
+// New create the chiperTable
+func New() map[int]string {
 	ASCIIlist := getASCIIelems()
 	intsList := newRandomInts()
 
